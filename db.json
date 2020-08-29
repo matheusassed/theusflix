@@ -1,0 +1,16 @@
+﻿{
+  "categoria": [
+    {
+      "id": 1,
+      "nome": "Front End",
+      "descricao": "A melhor categoria",
+      "cor": "#cbd1ff"
+    },
+    {
+      "id": 2,
+      "nome": "Back End",
+      "descricao": "A categoria das nuvens",
+      "cor": "#315945"
+    }
+  ]
+}
