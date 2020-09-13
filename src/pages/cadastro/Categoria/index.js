@@ -30,7 +30,9 @@ function CadastroCategoria() {
 
   useEffect(() => {
     console.log('Funcionouuuu');
-    const URL_CATEGORIAS = 'http://localhost:8080/categoria';
+    const URL_CATEGORIAS = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categoria'
+      : 'http://theusflix.herokuapp.com/categoria';
     fetch(URL_CATEGORIAS)
       .then(async (serverResponse) => {
         const response = await serverResponse.json();
